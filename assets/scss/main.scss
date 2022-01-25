@@ -1,26 +1,27 @@
 
 //Abstract
-@import "abstract/variables"
-@import "abstract/functions"
-@import "abstract/mixins"
+@import "abstract/variables";
+@import "abstract/functions";
+@import "abstract/mixins";
+
 
 //Base
-@import "base/reset"
-@import "base/typography"
+@import "base/reset";
+@import "base/typography";
 
 //Components
-@import "components/buttons"
-@import "components/links"
-@import "components/pagination"
-@import "components/thumbnails"
+@import "components/buttons";
+@import "components/links";
+@import "components/pagination";
+@import "components/thumbnails";
 
 //Layout
-@import "layout/navbar"
-@import "layout/article"
-@import "layout/footer"
+@import "layout/navbar";
+@import "layout/article";
+@import "layout/footer";
 
 //Pages
-@import "pages/contac"
-@import "pages/home"
+@import "pages/contac";
+@import "pages/home";
 
 
