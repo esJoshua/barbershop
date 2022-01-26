@@ -149,6 +149,19 @@ body {
 .article-container {
   min-height: 1160px;
 }
+.article-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+@media screen and (min-width: 768px) {
+  .article-button {
+    justify-content: start;
+  }
+  .article-button :last-child {
+    margin-left: 10px;
+  }
+}
 
 .footer {
   display: flex;
