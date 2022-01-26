@@ -1,14 +1,14 @@
 .navigation {
-    display: flex;
-    background-color: $color-eerie-black;
-    height: 96px;
-    
-    &__logo {
-        width: 81px;
-        height: auto;
-        margin-left: 50px;
-        @media screen and (min-width: 768px) {
-            margin-left: 80px;
-        
+  display: flex;
+  background-color: $color-eerie-black;
+  height: 96px;
+
+  &__logo {
+    width: 81px;
+    height: auto;
+    margin-left: 50px;
+    @media screen and (min-width: 768px) {
+      margin-left: 80px;
     }
-    }}
+  }
+}

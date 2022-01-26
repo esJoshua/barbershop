@@ -1,25 +1,22 @@
-
-.link-naomi{
-    text-decoration: none;
-    text-align: center;
-    font: $ff-roboto;
-    font-weight: 300;
-    @include link-states;
-    &__primary{
-        color: $color-ruddy-pink;        
-    }
-    &__secondary{
-        color: $color-raisin-black;
-    }
-    &--ligth{
-        color: $color-ligth-grey;
-        
-    }
-    &--dark{
-        color: $color-eerie-black;
-    }
-    @media (min-width: 768px) {
-        text-align: left;
-        
-    }
+.link-naomi {
+  text-decoration: none;
+  text-align: center;
+  font: $ff-roboto;
+  font-weight: 300;
+  @include link-states;
+  &__primary {
+    color: $color-ruddy-pink;
+  }
+  &__secondary {
+    color: $color-raisin-black;
+  }
+  &--ligth {
+    color: $color-ligth-grey;
+  }
+  &--dark {
+    color: $color-eerie-black;
+  }
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 }

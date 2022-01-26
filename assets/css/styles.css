@@ -10,7 +10,7 @@ body {
 
 .article__button {
   height: 51px;
-  background-color: #6C6E70;
+  background-color: #6c6e70;
   border: none;
   border-radius: 30px;
   color: #fff;
@@ -19,10 +19,10 @@ body {
   font-weight: 300;
 }
 .article__button:hover {
-  background-color: #D1D1D1;
+  background-color: #d1d1d1;
 }
 .article__button:focus {
-  border: 4px solid #D1D1D1;
+  border: 4px solid #d1d1d1;
 }
 .article__button--small {
   width: 115px;
@@ -45,22 +45,22 @@ body {
   color: #222323;
 }
 .link-naomi __primary:active {
-  color: #E6E7E7;
+  color: #e6e7e7;
 }
 .link-naomi --light:hover {
   color: #fff;
 }
 .link-naomi --light:active {
-  color: #D76C69;
+  color: #d76c69;
 }
 .link-naomi__primary {
-  color: #D76C69;
+  color: #d76c69;
 }
 .link-naomi__secondary {
   color: #222323;
 }
 .link-naomi--ligth {
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
 .link-naomi--dark {
   color: #121619;
@@ -124,6 +124,33 @@ body {
     height: 702px;
   }
 }
+.hero__title {
+  text-align: center;
+  font: italic normal 900 40px/53px Playfair Display;
+  letter-spacing: 0px;
+  color: #fff;
+  text-shadow: 0px 3px 6px #0000002e;
+  opacity: 1;
+  width: 315px;
+  height: 160px;
+}
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font: italic normal 900 70px/94px Playfair Display;
+    letter-spacing: 0px;
+    text-shadow: 0px 3px 6px #0000002e;
+    width: 634px;
+    height: 190px;
+  }
+}
+.hero__container-icon {
+  position: absolute;
+}
+.hero__icon {
+  position: relative;
+  top: 250px;
+  color: #fff;
+}
 
 .article {
   color: #222323;
@@ -161,7 +188,7 @@ __container-button {
 
 .naomi {
   height: 330px;
-  border-top: 2px solid #E6E7E7;
+  border-top: 2px solid #e6e7e7;
   color: #222323;
 }
 .naomi __container {
@@ -197,7 +224,7 @@ __container-button {
 }
 
 .pages-container {
-  background-color: #E6E7E7;
+  background-color: #e6e7e7;
   height: 156px;
   display: flex;
   justify-content: center;

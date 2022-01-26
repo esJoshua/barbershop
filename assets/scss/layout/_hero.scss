@@ -8,9 +8,35 @@
   background-size: cover;
   height: 640px;
   opacity: 1;
-  
+
   @media screen and (min-width: 768px) {
-      height: 702px;
-      
+    height: 702px;
+  }
+  &__title {
+    text-align: center;
+    font: italic normal 900 40px/53px Playfair Display;
+    letter-spacing: 0px;
+    color: $color-white;
+    text-shadow: 0px 3px 6px #0000002e;
+    opacity: 1;
+    width: 315px;
+    height: 160px;
+
+    @media screen and (min-width: 768px) {
+      font: italic normal 900 70px/94px Playfair Display;
+      letter-spacing: 0px;
+      text-shadow: 0px 3px 6px #0000002e;
+      width: 634px;
+      height: 190px;
+    }
+  }
+  &__container-icon {
+    position: absolute;
+  }
+
+  &__icon {
+    position: relative;
+    top: 250px;
+    color: $color-white;
   }
 }

@@ -1,29 +1,27 @@
 @mixin button-states {
-    &:hover{
-        background-color: $color-ligth-grey;
-    }
-    &:focus{
-        border: 4px solid $color-ligth-grey;
-    }
-    
+  &:hover {
+    background-color: $color-ligth-grey;
+  }
+  &:focus {
+    border: 4px solid $color-ligth-grey;
+  }
 }
 
 @mixin link-states {
-    
-    __primary {
-        &:hover{
-        color:$color-raisin-black;
-        }
-         &:active{
-        color:$color-platinum;
-        }}    
-    --light {
-        &:hover{
-            color:$color-white;
-        }
-        &:active{
-            color:$color-ruddy-pink;
-        }      
+  __primary {
+    &:hover {
+      color: $color-raisin-black;
     }
-
+    &:active {
+      color: $color-platinum;
+    }
+  }
+  --light {
+    &:hover {
+      color: $color-white;
+    }
+    &:active {
+      color: $color-ruddy-pink;
+    }
+  }
 }

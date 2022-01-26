@@ -1,21 +1,21 @@
-.article__button{
-    height: 51px;
-    background-color: $color-nickel;
-    border: none;
-    border-radius: 30px;
-    color: $color-white;
-    font-family: $ff-roboto;
-    font-size: $fz-small;
-    font-weight: 300;
-    @include button-states;
-    &--small {
-      width: 115px;
-    }
-  
-    &--medium {
-      width: 182px;
-    }
+.article__button {
+  height: 51px;
+  background-color: $color-nickel;
+  border: none;
+  border-radius: 30px;
+  color: $color-white;
+  font-family: $ff-roboto;
+  font-size: $fz-small;
+  font-weight: 300;
+  @include button-states;
+  &--small {
+    width: 115px;
   }
+
+  &--medium {
+    width: 182px;
+  }
+}
 .article__button + .article__button {
   margin-top: 10px;
 }
