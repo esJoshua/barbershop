@@ -1,7 +1,9 @@
 
 .link-naomi{
-    text-align: center;
     text-decoration: none;
+    text-align: center;
+    font: $ff-roboto;
+    font-weight: 300;
     @include link-states;
     &__primary{
         color: $color-ruddy-pink;        
@@ -15,5 +17,9 @@
     }
     &--dark{
         color: $color-eerie-black;
+    }
+    @media (min-width: 768px) {
+        text-align: left;
+        
     }
 }

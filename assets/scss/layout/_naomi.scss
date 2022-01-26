@@ -1,29 +1,40 @@
 .naomi{
-    display: inline-block;
-   
-    border: solid 0.3px ;
-    border-color: $color-platinum;
-    &__img-naomi{
-        display: block;
-        align-items: center;
+    height: 330px;
+    border-top: 2px solid $color-platinum;
+    color: $color-raisin-black;
+
+    __container{
+        margin: 75px auto 95px auto;
+    }
+
+    img {
+        
         border-radius: 50%;
-        margin:auto;
-        width: 131px;
-        height: 133px;
+        height: 170px;   
+        @media (min-width: 768px){
+        padding-left: 3rem;
+        }    
     }
     &__name{
-        font: italic normal 900 $fz-x-large $ff-playfair;
-        color: $color-eerie-black;
+        font-family: $ff-playfair;
+        letter-spacing: 0px;
+        font-size: $fz-large;
+        min-width: 240px;
         text-align: center;
-    }
+
+        @media (min-width: 768px) {
+        text-align: left;
+        padding-left: 4rem;
+        font-size: $fz-medium;
+        }
+        @media (min-width: 768px)
+        {
     
+        }
+    }
     &__text{
-        max-width: 617px;
-        color: $color-eerie-black;
-        line-height: 40px;
-        font-size: $fz-small;
-
+        letter-spacing: 0.49px;
+        color: #707070;
+        opacity: 1;
     }
-    
-
-    }
+}
