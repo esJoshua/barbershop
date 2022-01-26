@@ -1,3 +1,145 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  height: 51px;
+  background-color: #1216199e;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+}
+.button:hover {
+  background-color: #D1D1D1;
+}
+.button:focus {
+  border: 3px solid #D1D1D1;
+}
+.button--small {
+  width: 115px;
+}
+.button--medium {
+  width: 182px;
+}
+
+.link--primary {
+  text-decoration: none;
+  color: #D76C69;
+}
+.link--primary:hover {
+  color: #222323;
+}
+.link--primary:active {
+  color: #E6E7E7;
+}
+.link--secondary {
+  color: #222323;
+}
+.link--ligth {
+  color: #D1D1D1;
+}
+.link--ligth:hover {
+  color: #fff;
+}
+.link--ligth:active {
+  color: #D76C69;
+}
+.link--dark {
+  color: #121619;
+}
+
+.page-link {
+  background-color: #fff;
+  color: #121619;
+}
+.page-link:active {
+  color: #777777;
+  border: none;
+}
+.page-link:hover {
+  background-color: #121619;
+  color: #fff;
+}
+
+.page-item:first-child .page-link {
+  border-radius: 20px 0 0 20px;
+}
+
+.page-item:last-child .page-link {
+  border-radius: 0 20px 20px 0;
+}
+
+.thumbnail {
+  border: 0.3px solid #D1D1D1;
+  border-radius: 50%;
+  height: 130px;
+}
+@media (min-width: 992px) {
+  .thumbnail {
+    height: 180px;
+  }
+}
+
+.navigation {
+  display: flex;
+  background-color: #121619;
+  height: 96px;
+}
+.navigation__logo {
+  width: 81px;
+  height: auto;
+  margin-left: 50px;
+}
+@media screen and (min-width: 768px) {
+  .navigation__logo {
+    margin-left: 80px;
+  }
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 640px;
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 702px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121619;
+  height: 206px;
+}
+.footer__logo {
+  width: 81px;
+  height: auto;
+}
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    height: 122px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    width: 122px;
+    height: 51px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

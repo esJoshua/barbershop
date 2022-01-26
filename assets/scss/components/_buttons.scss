@@ -1,0 +1,15 @@
+.button {
+    height: 51px;
+    background-color: #1216199e;
+    border: none;
+    border-radius: 30px;
+    color: $color-white;
+    @include button-state;
+    &--small {
+      width: 115px;
+    }
+  
+    &--medium {
+      width: 182px;
+    }
+  }

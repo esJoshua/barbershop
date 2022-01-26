@@ -1,0 +1,20 @@
+.page-link {
+    background-color: $color-white;
+    color: $color-eerie-black;
+    
+    &:active {
+      color: #777777;
+      border: none;
+      
+    }
+    &:hover{
+      background-color:$color-eerie-black;
+      color: $color-white;
+    }
+  }
+  .page-item:first-child .page-link {
+    border-radius: 20px 0 0 20px;
+  }
+  .page-item:last-child .page-link {
+    border-radius: 0 20px 20px 0;
+  }

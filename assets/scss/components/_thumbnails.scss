@@ -1,0 +1,12 @@
+.thumbnail{
+    border: 0.3px solid $color-ligth-grey;
+    border-radius: 50%;
+    height: $img-small;
+    @media (min-width:992px ) {
+        height: $img-normal;
+    }
+    
+
+}
+
+// faltan los mediaqueries

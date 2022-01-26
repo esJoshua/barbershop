@@ -1,0 +1,9 @@
+@mixin button-state {
+    &:hover{
+        background-color: $color-ligth-grey;
+    }
+    &:focus{
+        border: 3px solid $color-ligth-grey;
+    }
+    
+}

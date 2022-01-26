@@ -1,0 +1,32 @@
+
+.link{
+    &--primary{
+        text-decoration: none;
+        color: $color-ruddy-pink;
+        &:hover{
+            color:$color-raisin-black;
+        }
+        &:active{
+            color:$color-platinum
+        }            
+        
+    }
+    &--secondary{
+        color: $color-raisin-black;
+    }
+    &--ligth{
+        color: $color-ligth-grey;
+        &:hover{
+            color:$color-white;
+        }
+        &:active{
+            color:$color-ruddy-pink;
+        }      
+    }
+    &--dark{
+        color: $color-eerie-black;
+    }
+
+
+
+}
