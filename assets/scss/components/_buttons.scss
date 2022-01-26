@@ -1,10 +1,13 @@
-.button {
+.article__button{
     height: 51px;
-    background-color: #1216199e;
+    background-color: $color-nickel;
     border: none;
     border-radius: 30px;
     color: $color-white;
-    @include button-state;
+    font-family: $ff-roboto;
+    font-size: $fz-small;
+    font-weight: 300;
+    @include button-states;
     &--small {
       width: 115px;
     }
@@ -13,3 +16,6 @@
       width: 182px;
     }
   }
+.article__button + .article__button {
+  margin-top: 10px;
+}

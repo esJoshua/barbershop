@@ -1,7 +1,6 @@
 
 //Abstract
 @import "abstract/variables";
-@import "abstract/functions";
 @import "abstract/mixins";
 
 
@@ -13,16 +12,20 @@
 @import "components/buttons";
 @import "components/links";
 @import "components/pagination";
-@import "components/thumbnails";
 
 //Layout
 @import "layout/navigation";
 @import "layout/hero";
 @import "layout/article";
+@import "layout/naomi";
 @import "layout/footer";
 
 //Pages
 @import "pages/contac";
-@import "pages/home";
 
+//Themes
+@import "themes/themes.scss";
+
+//Vendors
+@import "vendors/vendors";
 

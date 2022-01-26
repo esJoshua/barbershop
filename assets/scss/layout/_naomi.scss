@@ -1,0 +1,29 @@
+.naomi{
+    display: inline-block;
+   
+    border: solid 0.3px ;
+    border-color: $color-platinum;
+    &__img-naomi{
+        display: block;
+        align-items: center;
+        border-radius: 50%;
+        margin:auto;
+        width: 131px;
+        height: 133px;
+    }
+    &__name{
+        font: italic normal 900 $fz-x-large $ff-playfair;
+        color: $color-eerie-black;
+        text-align: center;
+    }
+    
+    &__text{
+        max-width: 617px;
+        color: $color-eerie-black;
+        line-height: 40px;
+        font-size: $fz-small;
+
+    }
+    
+
+    }

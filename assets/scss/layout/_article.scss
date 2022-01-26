@@ -1,6 +1,6 @@
 
 
-.article {
+.article{
     color: $color-raisin-black;
     padding: 50px;
     text-align: left;
@@ -25,23 +25,12 @@
         font-size: $fz-large;
         letter-spacing: 0.6px;
     }
-    &-container{
-        min-height: 1160px;
+   
     }
 
-    &-button{
-            display: flex;
-            justify-content:space-around;
-            margin-top: 50px;
-            
-            @media screen and (min-width:768px ) {
-                justify-content: start;
-                :last-child{
-                    margin-left: 10px;
-                }
-            }
-          
-            
-        }
-}
-
+    __container-button{
+        display: flex;
+        justify-content:space-around;
+        margin-top: 47px;
+        
+    }

@@ -8,49 +8,59 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.button {
+.article__button {
   height: 51px;
-  background-color: #1216199e;
+  background-color: #6C6E70;
   border: none;
   border-radius: 30px;
   color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
 }
-.button:hover {
+.article__button:hover {
   background-color: #D1D1D1;
 }
-.button:focus {
-  border: 3px solid #D1D1D1;
+.article__button:focus {
+  border: 4px solid #D1D1D1;
 }
-.button--small {
+.article__button--small {
   width: 115px;
 }
-.button--medium {
+.article__button--medium {
   width: 182px;
 }
 
-.link--primary {
-  text-decoration: none;
-  color: #D76C69;
+.article__button + .article__button {
+  margin-top: 10px;
 }
-.link--primary:hover {
+
+.link-naomi {
+  text-align: center;
+  text-decoration: none;
+}
+.link-naomi __primary:hover {
   color: #222323;
 }
-.link--primary:active {
+.link-naomi __primary:active {
   color: #E6E7E7;
 }
-.link--secondary {
-  color: #222323;
-}
-.link--ligth {
-  color: #D1D1D1;
-}
-.link--ligth:hover {
+.link-naomi --light:hover {
   color: #fff;
 }
-.link--ligth:active {
+.link-naomi --light:active {
   color: #D76C69;
 }
-.link--dark {
+.link-naomi__primary {
+  color: #D76C69;
+}
+.link-naomi__secondary {
+  color: #222323;
+}
+.link-naomi--ligth {
+  color: #D1D1D1;
+}
+.link-naomi--dark {
   color: #121619;
 }
 
@@ -73,17 +83,6 @@ body {
 
 .page-item:last-child .page-link {
   border-radius: 0 20px 20px 0;
-}
-
-.thumbnail {
-  border: 0.3px solid #D1D1D1;
-  border-radius: 50%;
-  height: 130px;
-}
-@media (min-width: 992px) {
-  .thumbnail {
-    height: 180px;
-  }
 }
 
 .navigation {
@@ -146,21 +145,36 @@ body {
     letter-spacing: 0.6px;
   }
 }
-.article-container {
-  min-height: 1160px;
-}
-.article-button {
+
+__container-button {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 47px;
 }
-@media screen and (min-width: 768px) {
-  .article-button {
-    justify-content: start;
-  }
-  .article-button :last-child {
-    margin-left: 10px;
-  }
+
+.naomi {
+  display: inline-block;
+  border: solid 0.3px;
+  border-color: #E6E7E7;
+}
+.naomi__img-naomi {
+  display: block;
+  align-items: center;
+  border-radius: 50%;
+  margin: auto;
+  width: 131px;
+  height: 133px;
+}
+.naomi__name {
+  font: italic normal 900 30px "Playfair Display", serif;
+  color: #121619;
+  text-align: center;
+}
+.naomi__text {
+  max-width: 617px;
+  color: #121619;
+  line-height: 40px;
+  font-size: 14px;
 }
 
 .footer {
