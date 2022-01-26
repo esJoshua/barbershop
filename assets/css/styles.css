@@ -119,6 +119,37 @@ body {
   }
 }
 
+.article {
+  color: #222323;
+  padding: 50px;
+  text-align: left;
+  opacity: 1;
+}
+.article__date {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+.article__body {
+  margin-top: 47px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 3;
+  letter-spacing: 0.56px;
+}
+@media screen and (min-width: 768px) {
+  .article {
+    padding: 100px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+  }
+}
+.article-container {
+  min-height: 1160px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
