@@ -1,1 +1,1 @@
-BarberShop Session 1
+BarberShop
