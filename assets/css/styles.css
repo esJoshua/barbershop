@@ -196,6 +196,18 @@ __container-button {
   opacity: 1;
 }
 
+.pages-container {
+  background-color: #E6E7E7;
+  height: 156px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pages-container__bar {
+  display: flex;
+  border-radius: 30px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
