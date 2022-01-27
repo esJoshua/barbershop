@@ -5,7 +5,7 @@ body * {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 .article__button {
@@ -38,8 +38,9 @@ body {
 .link-naomi {
   text-decoration: none;
   text-align: center;
-  font: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
+  font-size: 16px;
 }
 .link-naomi __primary:hover {
   color: #222323;
@@ -68,6 +69,7 @@ body {
 @media (min-width: 768px) {
   .link-naomi {
     text-align: left;
+    font-size: 18px;
   }
 }
 
@@ -159,14 +161,14 @@ body {
   opacity: 1;
 }
 .article__date {
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", sans-serif, sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0px;
 }
 .article__body {
   margin-top: 47px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 3;
@@ -203,24 +205,28 @@ __container-button {
     padding-left: 3rem;
   }
 }
-.naomi__name {
-  font-family: "Playfair Display", serif;
-  letter-spacing: 0px;
-  font-size: 18px;
-  min-width: 240px;
+.naomi__container-name {
+  min-width: 250px;
   text-align: center;
 }
 @media (min-width: 768px) {
-  .naomi__name {
+  .naomi__container-name {
     text-align: left;
     padding-left: 4rem;
-    font-size: 16px;
   }
 }
 .naomi__text {
   letter-spacing: 0.49px;
   color: #707070;
   opacity: 1;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 0px;
+  font-size: 30px;
 }
 
 .pages-container {

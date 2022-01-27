@@ -4,14 +4,14 @@
   text-align: left;
   opacity: 1;
   &__date {
-    font-family: $ff-playfair;
+    font-family: $ff-playfair, sans-serif;
     font-size: $fz-medium;
     font-weight: 400;
     letter-spacing: 0px;
   }
   &__body {
     margin-top: 47px;
-    font-family: $ff-roboto;
+    font-family: $ff-roboto, sans-serif;
     font-size: $fz-medium;
     font-weight: 300;
     line-height: 3;
